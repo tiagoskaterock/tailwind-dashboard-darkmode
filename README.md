@@ -1,5 +1,9 @@
 # 🌙 Tailwind Dashboard Dark Mode 🚀
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=css,tailwind" alt="Dev icons" />
+</p>
+
 ## Overview
 
 Welcome to this stylish dashboard created with Tailwind CSS! It's not just a dashboard; it's a dark-themed, customizable, and responsive wonderland for web applications.

@@ -34,11 +34,6 @@ module.exports = {
         'very-dark-blue': 'hsl(230, 17%, 14%)',
       },
 
-      backgroundImage: {
-        "open-menu": "url('../../img/menu.svg')",
-        "close-menu": "url('../../img/close.svg')"
-      }
-
     },
   },
   plugins: [],

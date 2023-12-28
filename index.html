@@ -32,7 +32,31 @@
       Total Followers: 23,004      
     </p>
 
-    Dark Mode
+    <div class="flex items-center justify-between pt-6">
+      <p class="text-dark-grayish-blue font-bold">
+        Dark Mode
+      </p>
+
+      <input type="checkbox" id="switch" class="peer hidden" data-id="swith-theme">
+
+      <label 
+        for="switch"
+        class="w-16 h-8 bg-[hsl(230,22%,74%)] p-2 block flex flex-row-reverse rounded-full cursor-pointer peer-checked:bg-gradient-to-r from-gradient-switch-first to-gradient-switch-second 
+        peer-checked:[--bg-circle:hsl(228,28%,20%)]
+        peer-checked:[--transform-circle:-100%]"
+        >
+
+        <div 
+          class="bg-[var(--bg-circle,white)] w-1/2 aspect-square rounded-full
+            translate-x-[var(--transform-circle)]
+            transition-transform"
+          >
+          
+        </div>
+      </label>
+    </div>
+
+    
 
     
 
