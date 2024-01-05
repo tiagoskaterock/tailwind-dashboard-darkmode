@@ -38,4 +38,4 @@ Welcome to this stylish dashboard created with Tailwind CSS! It's not just a das
 If you're lost in the dark or just want to share some bright ideas, feel free to reach out! I'm all ears for knowledge exchange and learning something new:
 
 📧 Email: tiagolemespalhano@gmail.com <br>
-🌐 Website: [cupcakessoft.com](https://cupcakessoft.com)
+🌐 Website: [cupcakessoft.com](https://cupcakesoft.com)
