@@ -18,7 +18,9 @@ Welcome to this stylish dashboard created with Tailwind CSS! It's not just a das
 
 ## Preview
 
-<!-- You know what they say: a picture's worth a thousand words. (Screenshots or GIFs coming soon!) -->
+<p align="center">
+  <img src="1.png" alt="Website" />
+</p>
 
 ## Installation
 

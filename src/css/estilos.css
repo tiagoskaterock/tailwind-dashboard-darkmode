@@ -557,12 +557,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .block {
@@ -601,12 +601,12 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-.max-w-screen-xl {
-  max-width: 1280px;
-}
-
 .max-w-md {
   max-width: 28rem;
+}
+
+.max-w-screen-xl {
+  max-width: 1280px;
 }
 
 .translate-x-\[var\(--transform-circle\)\] {
@@ -669,14 +669,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--bg-circle,white);
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
-}
-
 .bg-light-grayish-blue {
   --tw-bg-opacity: 1;
   background-color: hsl(227 47% 96% / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
 .from-gradient-switch-first {
@@ -693,14 +693,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.5rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .py-8 {
@@ -729,8 +729,22 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 2.25rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .text-dark-grayish-blue {
@@ -738,14 +752,14 @@ h1, h2, h3, h4, h5, h6 {
   color: hsl(228 12% 44% / var(--tw-text-opacity));
 }
 
-.text-very-dark-blue {
-  --tw-text-opacity: 1;
-  color: hsl(230 17% 14% / var(--tw-text-opacity));
-}
-
 .text-lime-green {
   --tw-text-opacity: 1;
   color: hsl(163 72% 41% / var(--tw-text-opacity));
+}
+
+.text-very-dark-blue {
+  --tw-text-opacity: 1;
+  color: hsl(230 17% 14% / var(--tw-text-opacity));
 }
 
 .transition-transform {
@@ -778,25 +792,14 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -10;
 }
 
-.before\:h-96::before {
-  content: var(--tw-content);
-  height: 24rem;
-}
-
 .before\:h-2::before {
   content: var(--tw-content);
   height: 0.5rem;
 }
 
-.before\:rounded::before {
+.before\:h-96::before {
   content: var(--tw-content);
-  border-radius: 0.25rem;
-}
-
-.before\:rounded-t::before {
-  content: var(--tw-content);
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  height: 24rem;
 }
 
 .before\:rounded-t-lg::before {
@@ -805,16 +808,16 @@ h1, h2, h3, h4, h5, h6 {
   border-top-right-radius: 0.5rem;
 }
 
-.before\:bg-very-pale-blue::before {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: hsl(225 100% 98% / var(--tw-bg-opacity));
-}
-
 .before\:bg-facebook::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: hsl(208 92% 53% / var(--tw-bg-opacity));
+}
+
+.before\:bg-very-pale-blue::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: hsl(225 100% 98% / var(--tw-bg-opacity));
 }
 
 .peer:checked ~ .peer-checked\:bg-gradient-to-r {
@@ -827,4 +830,44 @@ h1, h2, h3, h4, h5, h6 {
 
 .peer:checked ~ .peer-checked\:\[--transform-circle\:-100\%\] {
   --transform-circle: -100%;
+}
+
+@media (min-width: 768px) {
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-very-dark-blue {
+    --tw-bg-opacity: 1;
+    background-color: hsl(230 17% 14% / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-dark-desaturated-blue {
+    --tw-bg-opacity: 1;
+    background-color: hsl(228 28% 20% / var(--tw-bg-opacity));
+  }
+
+  .dark\:text-white {
+    --tw-text-opacity: 1;
+    color: hsl(0 0% 100% / var(--tw-text-opacity));
+  }
+
+  .dark\:text-desaturated-blue {
+    --tw-text-opacity: 1;
+    color: hsl(228 34% 66% / var(--tw-text-opacity));
+  }
+
+  .dark\:before\:bg-very-dark-blue-top::before {
+    content: var(--tw-content);
+    --tw-bg-opacity: 1;
+    background-color: hsl(232 19% 15% / var(--tw-bg-opacity));
+  }
 }
