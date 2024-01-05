@@ -19,10 +19,10 @@ Welcome to this stylish dashboard created with Tailwind CSS! It's not just a das
 ## Preview
 
 <p align="center">
-  <img src="1.png" alt="Website" />
-  <img src="2.png" alt="Website" />
-  <img src="3.png" alt="Website" />
-  <img src="4.png" alt="Website" />
+  <img src="1.gif" alt="Website" />
+  <img src="2.gif" alt="Website" />
+  <img src="3.gif" alt="Website" />
+  <img src="4.gif" alt="Website" />
 </p>
 
 ## Installation
