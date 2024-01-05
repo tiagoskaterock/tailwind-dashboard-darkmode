@@ -18,14 +18,14 @@ Welcome to this stylish dashboard created with Tailwind CSS! It's not just a das
 
 ## Preview
 
-<p align="center">
-  Large Screen
-  <img src="1.gif" alt="Website" />
-  Medium Screen
-  <img src="2.gif" alt="Website" />
-  Small Screen
-  <img src="3.gif" alt="Website" />
-</p>
+<p align="center">Large Screen</p>
+<p align="center"><img src="1.gif" alt="Website" /></p>
+
+<p align="center">Medium Screen</p>
+<p align="center"><img src="2.gif" alt="Website" /></p>
+
+<p align="center">Small Screen</p>
+<p align="center"><img src="3.gif" alt="Website" /></p>
 
 ## Installation
 
