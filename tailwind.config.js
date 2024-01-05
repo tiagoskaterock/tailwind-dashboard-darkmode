@@ -10,13 +10,13 @@ module.exports = {
 
       colors:{
         'lime-green': 'hsl(163, 72%, 41%)',
-        'bright Red': 'hsl(356, 69%, 56%)',
+        'bright-red': 'hsl(356, 69%, 56%)',
 
         'facebook': 'hsl(208, 92%, 53%)',
         'twitter': 'hsl(203, 89%, 53%)',
         'instagram-first': 'hsl(37, 97%, 70%)',
         'instagram-second': 'hsl(329, 70%, 58%)',
-        'youTube': 'hsl(348, 97%, 39%)',
+        'youtube': 'hsl(348, 97%, 39%)',
 
         'gradient-switch-first': 'hsl(210, 78%, 56%)',
         'gradient-switch-second': 'hsl(146, 68%, 55%)',

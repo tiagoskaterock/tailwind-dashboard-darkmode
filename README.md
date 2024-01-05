@@ -1,7 +1,7 @@
 # 🌙 Tailwind Dashboard Dark Mode 🚀
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=css,tailwind" alt="Dev icons" />
+  <img src="https://skillicons.dev/icons?i=tailwind" alt="Dev icons" />
 </p>
 
 ## Overview
@@ -20,6 +20,9 @@ Welcome to this stylish dashboard created with Tailwind CSS! It's not just a das
 
 <p align="center">
   <img src="1.png" alt="Website" />
+  <img src="2.png" alt="Website" />
+  <img src="3.png" alt="Website" />
+  <img src="4.png" alt="Website" />
 </p>
 
 ## Installation
