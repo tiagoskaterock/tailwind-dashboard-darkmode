@@ -20,12 +20,15 @@ Welcome to this stylish dashboard created with Tailwind CSS! It's not just a das
 
 <p align="center">Large Screen</p>
 <p align="center"><img src="1.gif" alt="Website" /></p>
+<hr>
 
 <p align="center">Medium Screen</p>
 <p align="center"><img src="2.gif" alt="Website" /></p>
+<hr>
 
 <p align="center">Small Screen</p>
 <p align="center"><img src="3.gif" alt="Website" /></p>
+<hr>
 
 ## Installation
 
