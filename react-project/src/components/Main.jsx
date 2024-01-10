@@ -48,7 +48,7 @@ function Main() {
 	      	title="@nathanf" 
 	      	total="1987" 
 	      	deltaToday="12" 
-	      	class="before:bg-facebook" 
+	      	className="before:bg-facebook" 
 	      	logo="./images/icon-facebook.svg"
 	      />
 
@@ -56,7 +56,7 @@ function Main() {
 	      	title="@nathanf" 
 	      	total="1044" 
 	      	deltaToday="99" 
-	      	class="before:bg-twitter" 	
+	      	className="before:bg-twitter" 	
 	      	logo="./images/icon-twitter.svg"
 	      />
 
@@ -64,7 +64,7 @@ function Main() {
 	      	title="@nathanf" 
 	      	total="11K" 
 	      	deltaToday="1099" 
-	      	class="
+	      	className="
 	      		before:bg-gradient-to-r 
 	      		before:from-instagram-first 
 	      		before:to-instagram-second" 	      	
@@ -75,7 +75,7 @@ function Main() {
 	      	title="@realnathanf" 
 	      	total="11K" 
 	      	deltaToday="-144" 
-	      	class="
+	      	className="
 	      		before:bg-youtube" 	      	
 	      	logo="./images/icon-youtube.svg"
 	      />

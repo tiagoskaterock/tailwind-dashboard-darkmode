@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.0 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -41,10 +41,8 @@ html,
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
-  -moz-tab-size: 4;
   /* 3 */
-  -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
@@ -376,13 +374,6 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
-}
-
 input::placeholder,
 textarea::placeholder {
   opacity: 1;
@@ -550,7 +541,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-status {
   display: grid;
+  grid-template-columns: -webkit-min-content -webkit-max-content;
   grid-template-columns: min-content max-content;
+  grid-template-rows: -webkit-max-content -webkit-max-content;
   grid-template-rows: max-content max-content;
   align-content: center;
   align-items: center;
@@ -571,16 +564,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
 
 .mt-3 {
   margin-top: 0.75rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 
 .block {
@@ -745,19 +738,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 4rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pb-6 {
@@ -922,6 +910,32 @@ h1, h2, h3, h4, h5, h6 {
   --transform-circle: -100%;
 }
 
+:is([data-theme="dark"] .dark\:bg-dark-desaturated-blue) {
+  --tw-bg-opacity: 1;
+  background-color: hsl(228 28% 20% / var(--tw-bg-opacity));
+}
+
+:is([data-theme="dark"] .dark\:bg-very-dark-blue) {
+  --tw-bg-opacity: 1;
+  background-color: hsl(230 17% 14% / var(--tw-bg-opacity));
+}
+
+:is([data-theme="dark"] .dark\:text-desaturated-blue) {
+  --tw-text-opacity: 1;
+  color: hsl(228 34% 66% / var(--tw-text-opacity));
+}
+
+:is([data-theme="dark"] .dark\:text-white) {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+:is([data-theme="dark"] .dark\:before\:bg-very-dark-blue-top)::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: hsl(232 19% 15% / var(--tw-bg-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -952,30 +966,4 @@ h1, h2, h3, h4, h5, h6 {
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-}
-
-:is(:where([data-theme="dark"]) .dark\:bg-dark-desaturated-blue) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(228 28% 20% / var(--tw-bg-opacity));
-}
-
-:is(:where([data-theme="dark"]) .dark\:bg-very-dark-blue) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(230 17% 14% / var(--tw-bg-opacity));
-}
-
-:is(:where([data-theme="dark"]) .dark\:text-desaturated-blue) {
-  --tw-text-opacity: 1;
-  color: hsl(228 34% 66% / var(--tw-text-opacity));
-}
-
-:is(:where([data-theme="dark"]) .dark\:text-white) {
-  --tw-text-opacity: 1;
-  color: hsl(0 0% 100% / var(--tw-text-opacity));
-}
-
-:is(:where([data-theme="dark"]) .dark\:before\:bg-very-dark-blue-top)::before {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: hsl(232 19% 15% / var(--tw-bg-opacity));
 }

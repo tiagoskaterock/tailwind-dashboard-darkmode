@@ -1,6 +1,6 @@
-/** @type {import('tailwindcss').Config} */
+ /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}", "./public/index.html"],
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   darkMode: ['class', '[data-theme="dark"]'],
   theme: {
     extend: {
@@ -28,11 +28,9 @@ module.exports = {
         'desaturated-blue': 'hsl(228, 34%, 66%)',
         'white': 'hsl(0, 0%, 100%)',
 
-        'white': 'hsl(0, 0%, 100%)',
         'very-pale-blue': 'hsl(225, 100%, 98%)',
         'light-grayish-blue': 'hsl(227, 47%, 96%)',
-        'dark-grayish-blue': 'hsl(228, 12%, 44%)',
-        'very-dark-blue': 'hsl(230, 17%, 14%)',
+        'dark-grayish-blue': 'hsl(228, 12%, 44%)'
       },
 
     },
